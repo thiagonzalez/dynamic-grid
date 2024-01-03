@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-stack-item .grid-stack-item-content {
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.gs-3 > .grid-stack-item {
+  width: 33.33333333%;
+}
+
+.gs-3 > .grid-stack-item[gs-x="1"] {
+  left: 33.33333334%;
+}
+
+.gs-3 > .grid-stack-item[gs-w="2"] {
+  width: 66.6666666%;
+}
+
+.gs-3 > .grid-stack-item[gs-x="2"] {
+  left: 66.6666667%;
+}
+
+.gs-3 > .grid-stack-item[gs-w="3"] {
+  width: 100%;
+}
